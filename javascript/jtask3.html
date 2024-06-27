@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+</head>
+<body>
+     Enter Number 1 :<input type="text" id="see"><br><br>
+     Enter Number 2 :<input type="text"  id="def">
+     <br>
+     <br><button onclick="Multiply()"> Multiply </button> 
+     <button onclick="Divide()"> Divide</button> 
+<br>
+<br>
+<p id="demo"></p>
+
+<script>
+    
+    function Multiply(){
+        var x = document.getElementById('see').value;
+        var y = document.getElementById('def').value;
+        document.getElementById('demo').innerHTML='The Multiplied Value:'+x*y    }
+
+        function Divide(){
+        var x = document.getElementById('see').value;
+        var y = document.getElementById('def').value;
+        document.getElementById('demo').innerHTML='The Divided Value :'+x/y    }
+</script>
+</script>
+</body>
+</html>
